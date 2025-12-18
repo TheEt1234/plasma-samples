@@ -17,14 +17,14 @@ And no dont worry i didnt delete license files because they looked like bloat
 
 ## Use
 ```es
-samples('github:theet1234/plasma-samples')
+samples('github:TheEt1234/plasma-samples/refs/heads/main')
 ```
 
 
 ## Example
 ```es
 // "You can make something more creative than this" @license CC0
-samples('github:theet1234/plasma-samples')
+samples('github:TheEt1234/plasma-samples/refs/heads/main')
 
 $: s("dialog-error*4").bank("oxygen").delay(.2).dec(.8)
 
