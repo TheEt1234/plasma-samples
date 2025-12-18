@@ -6,14 +6,14 @@ i dunno if plasma is trademarked or not
 ## Naming scheme
 - `ocean_<whatever>` - came from ocean sound theme
 - `oxygen_<whatever>` - came from oxygen sounds
-- Yes it looks strange, but you can use `.bank("oxygen")` for example, so its worth it
+- the sounds itself also have `word1-word2-word3` naming scheme
+  - Yes it looks strange, but you can use `"dialog-warning".bank("oxygen").s()` for example, so its worth it
 
 ## Included sounds
 - https://invent.kde.org/plasma/oxygen-sounds
 - https://invent.kde.org/plasma/ocean-sound-theme
 
-And no dont worry i didnt delete license files because they looked like bloat
-
+And their licenses
 
 ## Use
 ```es
@@ -22,7 +22,7 @@ samples('github:TheEt1234/plasma-samples/refs/heads/main')
 
 
 ## Example
-```es
+```js
 // "You can make something more creative than this" @license CC0
 samples('github:TheEt1234/plasma-samples/refs/heads/main')
 
