@@ -15,7 +15,20 @@ i dunno if plasma is trademarked or not
 And no dont worry i didnt delete license files because they looked like bloat
 
 
-use:
+## Use
 ```es
+samples('github:theet1234/plasma-samples')
+```
 
+
+## Example
+```es
+// "You can make something more creative than this" @license CC0
+samples('github:theet1234/plasma-samples')
+
+$: s("dialog-error*4").bank("oxygen").delay(.2).dec(.8)
+
+$: note("a")
+  .s("dialog-error").bank("ocean")
+.delay(.2)
 ```
